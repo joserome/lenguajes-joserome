@@ -16,7 +16,7 @@ public class LenguajesJoserome {
      */
     public static void main(String[] args) {
         
-        System.out.println("imprime programa de java 2");
+        System.out.println("linea modificada");
     }
     
 }
