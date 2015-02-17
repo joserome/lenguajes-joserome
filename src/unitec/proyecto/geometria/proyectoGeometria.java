@@ -107,12 +107,20 @@ public class proyectoGeometria extends javax.swing.JFrame {
 
     private void botonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonActionPerformed
 
+        try{
         /*pedirle el valor del numero al campo de texto
         y  transformarlo a un numero real*/
       cuadrado c =new cuadrado();
       c.setLado(Float.parseFloat(texto.getText()));
       
-      etiqueta.setText("el area es:" + c.calcularArea());
+      
+        }//tambien dentro de los parentesis de catch NumberFormatException
+        
+        catch(Throwable e){
+         etiqueta.setText(e.getMessage());
+        }
+            
+     
     }//GEN-LAST:event_botonActionPerformed
 
     /**

@@ -12,6 +12,12 @@ package unitec.proyecto.geometria;
 public class cuadrado {
      private float lado;
     
+     
+   /**
+    * este constructor tiene un argumento de tipo flotante
+    * @param lado   El parametro que debes ingresar es el valor del lado de tu cuadrado
+    */  
+     
      //en la clase cuadrado agregar un constructor que inicialize el atributo lado
      public cuadrado(float lado){
      this.lado=lado;

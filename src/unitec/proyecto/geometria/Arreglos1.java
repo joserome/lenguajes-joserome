@@ -9,6 +9,7 @@ package unitec.proyecto.geometria;
  *
  * @author T-301
  */
+
 public class Arreglos1 {
     
     
@@ -33,12 +34,31 @@ public class Arreglos1 {
     //x[3]=17;
     
     //iterar   length lo ajusta al tamaño del arreglo
-    for(int i=0;i<x.length;i++){
-        System.out.println(x[i]);
+   //for(int i=0;i<x.length;i++){
+     
+    
+    int a=2;
+    float b=0;
+    
+        System.out.println(a/b);
+    
+    
+    for(int i=0;i<3;i++){
+    System.out.println(x[i]);
+   
+    
     }
     
-    for(int algo:x){
-        System.out.println(algo);
+    
+    
+        System.out.println("si existe la excepcion nunca me veras");
+    
+    
+    //ciclo for mejorado
+    for(int algodon:x){
+        System.out.println(algodon);
     }
+    
+    
     }
 }
