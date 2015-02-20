@@ -112,6 +112,8 @@ public class proyectoGeometria extends javax.swing.JFrame {
         y  transformarlo a un numero real*/
       cuadrado c =new cuadrado();
       c.setLado(Float.parseFloat(texto.getText()));
+      jLabel1.setText("el area es"+c.calcularArea());
+      
       
       
         }//tambien dentro de los parentesis de catch NumberFormatException

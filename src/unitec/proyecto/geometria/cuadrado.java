@@ -13,13 +13,17 @@ public class cuadrado {
      private float lado;
     
      
+     
+     
    /**
     * este constructor tiene un argumento de tipo flotante
     * @param lado   El parametro que debes ingresar es el valor del lado de tu cuadrado
     */  
      
      //en la clase cuadrado agregar un constructor que inicialize el atributo lado
-     public cuadrado(float lado){
+     public cuadrado(float lado) throws NumeroNoNegativoException{
+         ValidarValorNoNegativo.validar(lado);
+         
      this.lado=lado;
      }
      //se agrega este porq ya agregamos un constructor y es una de las reglas
@@ -39,7 +43,8 @@ public class cuadrado {
         return lado;
     }
 
-    public void setLado(float lado) {
+    public void setLado(float lado) throws NumeroNoNegativoException {
+        ValidarValorNoNegativo.validar(lado);
         this.lado = lado;
     }
 
