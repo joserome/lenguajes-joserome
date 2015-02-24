@@ -24,6 +24,7 @@ public class cuadrado {
      public cuadrado(float lado) throws NumeroNoNegativoException{
          ValidarValorNoNegativo.validar(lado);
          
+         
      this.lado=lado;
      }
      //se agrega este porq ya agregamos un constructor y es una de las reglas
@@ -33,7 +34,7 @@ public class cuadrado {
      
      
      
-    float calcularArea(){
+    public float calcularArea(){
     
     float area=lado*lado;
             return area;
