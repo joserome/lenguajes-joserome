@@ -9,13 +9,13 @@ package unitec.proyecto.geometria;
  *
  * @author T-107
  */
-public class triangulo {
+public class triangulo implements superficies {
     private float base;
     private float altura;
     
     
     public float calcularArea(){
-        
+        System.out.print("El area del triangulo es :");
         return (base*altura)/2;
     }
 
