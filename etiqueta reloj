@@ -1,0 +1,30 @@
+  private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+
+ Thread t1=new Thread( new Runnable(){
+        @Override    
+        public void run(){
+            
+                 while(true){
+        
+        try{
+            Thread.sleep(1000);
+        //esta en la biblioteca tanto el calendar como lo de la instance
+        Calendar cal=Calendar.getInstance();
+        int hora=cal.get(Calendar.HOUR_OF_DAY);
+        int minuto=cal.get(Calendar.MINUTE);
+        int segundo=cal.get(Calendar.SECOND);
+        
+        jLabel1.setText("La hora es:"+hora+":"+minuto+":"+segundo);
+        
+        
+        }catch(Exception e){}
+    
+    }
+            }
+            
+            
+        });
+         
+         
+         t1.start();
+         //*************************************
