@@ -18,6 +18,7 @@ public class Relojito extends Thread {
     while(true){
         
         try{
+            Thread.sleep(1000);
         //esta en la biblioteca tanto el calendar como lo de la instance
         Calendar cal=Calendar.getInstance();
         int hora=cal.get(Calendar.HOUR_OF_DAY);
@@ -26,7 +27,7 @@ public class Relojito extends Thread {
         
         System.out.println("La hora es:"+hora+":"+minuto+":"+segundo);
         
-        Thread.sleep(1000);
+        
         }catch(Exception e){}
     
     }

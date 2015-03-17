@@ -19,17 +19,18 @@ public class ProbarThreads {
         
         System.out.println("probar Threads");
         
-        //paso 1 crearlo
+//paso 1 crearlo
         
         Facil t1=new Facil();
         //este es otro Thread de facil
         Facil t11=new Facil();
+        
         // es para el relojito
         
         Relojito treloj=new Relojito();
                 
                 
-//es para 2
+        //es para 2
         Regular r1=new Regular();
         Thread t2=new Thread(r1);
         
@@ -56,18 +57,18 @@ public class ProbarThreads {
         
 
 //paso 2 inicializar  es con el metodo star
-        t1.start();
+      //*  t1.start();
         
-        t11.start();
+       //* t11.start();
         
         treloj.start();
         
     //es para el 2
-        t2.start();
+      //*  t2.start();
         
      //es para el 3
         
-        t3.start();
+    //*    t3.start();
 
     }
     
