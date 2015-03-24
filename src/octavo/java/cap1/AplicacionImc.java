@@ -19,9 +19,9 @@ public class AplicacionImc {
          /* el primero es referencia o el tipo de variable
         y el segundo es una instancia o constructor     */
         
-        float resultado=nuevo.calcular(1.68f, 54);                
+       // float resultado=nuevo.calcular(1.68f, 54);                
         
-        System.out.println("Tu Imc es : "+ resultado);
+        //System.out.println("Tu Imc es : "+ resultado);
     }
     
 }

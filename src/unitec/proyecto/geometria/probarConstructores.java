@@ -29,7 +29,7 @@ public class probarConstructores {
         
         int i2=300;
          
-        cuadrado c=new cuadrado((float)dedos);
+   //     cuadrado c=new cuadrado((float)dedos);
         
         
        
